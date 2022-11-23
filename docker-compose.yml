@@ -12,7 +12,7 @@ services:
     network_mode: host
     environment:
       MYSQL_ROOT_PASSWORD: *****
-      MYSQL_CLUSTER_ADDRESS: gcomm://gcomm://x.x.x.x,y.y.y.y,z.z.z.z
+      MYSQL_CLUSTER_ADDRESS: gcomm://x.x.x.x,y.y.y.y,z.z.z.z
       TZ: Asia/Ho_Chi_Minh
     logging:
       options:
