@@ -7,7 +7,7 @@ This repository maintains the Dockerfile and scripts to build MariaDB Galera Clu
 Dockerfile : 
 
     1. Build from official docker container
-    2. Copy files init.sh
+    2. Copy files init.sh init.sql
     3. Set user mysql
     4. Set /init.sh as entrypoint
 
