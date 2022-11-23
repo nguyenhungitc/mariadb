@@ -17,7 +17,7 @@ init.sh :
     2. Updated safe_to_bootstrap to 1 in /var/lib/mysql/grastate.dat, if mysql data is found and this is a new cluster
     3. Start mysqld with different arguments.
     
-galega-status :
+galera-status :
 
     USAGE: galera-status [--help] [--follow] [--hosts=<node1>,<node2>,...] [MySQL options]
     OPTIONS: --help        this help
