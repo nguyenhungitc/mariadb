@@ -3,7 +3,7 @@ version: "3.3"
 services:
   mariadb:
     build: .
-    image: mariadb-galera
+    image: mariadb-cluster
     container_name: mariadb
     volumes:
       - /opt/mariadb:/var/lib/mysql
