@@ -11,7 +11,7 @@ services:
     restart: always
     network_mode: host
     environment:
-      MYSQL_ROOT_PASSWORD: B0t@yroido
+      MYSQL_ROOT_PASSWORD: *****
       MYSQL_CLUSTER_ADDRESS: gcomm://gcomm://x.x.x.x,y.y.y.y,z.z.z.z
       TZ: Asia/Ho_Chi_Minh
     logging:
