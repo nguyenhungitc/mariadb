@@ -42,3 +42,8 @@ When all containsers are running.
     | wsrep_incoming_addresses  | x.x.x.x,y.y.y.y,z.z.z.z                |
     | wsrep_cluster_status      | Primary                                |
     +---------------------------+----------------------------------------+
+
+## References
+
+https://github.com/hweidner/galera-docker
+https://github.com/ustcweizhou/docker-mariadb-cluster
