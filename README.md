@@ -16,6 +16,15 @@ init.sh :
     1. Check service in the cluster to see if this is a new cluster
     2. Updated safe_to_bootstrap to 1 in /var/lib/mysql/grastate.dat, if mysql data is found and this is a new cluster
     3. Start mysqld with different arguments.
+    
+galega-status :
+
+    USAGE: galera-status [--help] [--follow] [--hosts=<node1>,<node2>,...] [MySQL options]
+    OPTIONS: --help        this help
+         --follow      continuously updates information retrieved from monitored nodes
+         --hosts       comma-separated list of node hosts
+    EXAMPLES: galera-status --hosts=172.0.0.1,172.0.0.2,172.0.0.3 -uuser -psecret --follow
+          galera-status --follow
 
 ## Example
 
@@ -47,3 +56,4 @@ When all containsers are running.
 
     https://github.com/hweidner/galera-docker
     https://github.com/ustcweizhou/docker-mariadb-cluster
+    https://github.com/scheidtp/galera-status
